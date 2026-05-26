@@ -1,0 +1,9 @@
+{
+  "name": "Qwen2-VL 7B Instruct",
+  "slug": "qwen2_vl_7b_instruct",
+  "params": "7B",
+  "model_type": "Open Source",
+  "vision_encoder": "QwenViT",
+  "language_model": "Qwen2-7B",
+  "url": "https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct"
+}

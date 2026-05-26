@@ -1,0 +1,9 @@
+{
+  "name": "LFM2.5-VL 450M",
+  "slug": "lfm25_vl_450m",
+  "params": "450M",
+  "model_type": "Open Source",
+  "vision_encoder": "SigLIP2 NaFlex 86M",
+  "language_model": "LFM2.5-350M",
+  "url": "https://huggingface.co/LiquidAI/LFM2.5-VL-450M"
+}

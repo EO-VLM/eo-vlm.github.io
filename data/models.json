@@ -1,0 +1,13 @@
+[
+  "internvl2_2b",
+  "internvl2_8b",
+  "lfm25_vl_450m",
+  "llava_1_5_7b",
+  "llava_1_6_7b",
+  "llava_ov_500m",
+  "llava_ov_7b",
+  "qwen2_vl_7b_instruct",
+  "smolvlm_256m_instruct",
+  "smolvlm_2b_instruct",
+  "smolvlm_500m_instruct"
+]

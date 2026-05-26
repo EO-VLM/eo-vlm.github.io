@@ -1,0 +1,51 @@
+{
+    "model_slug": "qwen2_vl_7b_instruct",
+    "mode": "temporal",
+    "split": "GEOBench-VLM",
+    "data_path": "/mnt/0857093308570933/datasets/GEO/GEOBench-VLM/",
+    "timestamp": "2026-05-24T15:59:24.392196+00:00",
+    "scores": {
+        "per_task": {
+            "Crop Type Classification": 18.18,
+            "Damaged Building Counting": 54.1,
+            "Disaster Type Classification": 61.67,
+            "Farm Pond Change Detection": 17.11,
+            "Land Use Classification": 58.69
+        },
+        "overall": 53.12
+    },
+    "engine_config": {
+        "repo_id": "Qwen/Qwen2-VL-7B-Instruct",
+        "trust_remote_code": true,
+        "quantized": false,
+        "load_in_8bit": false,
+        "max_new_tokens": 128,
+        "temperature": 0.0,
+        "use_kv_cache": true,
+        "gpu_memory_utilization": 0.9,
+        "max_images_per_prompt": 2,
+        "extra_engine_kwargs": {
+            "max_model_len": 4096
+        },
+        "extra_sampling_kwargs": {}
+    },
+    "batch_size": 8,
+    "sample_count": 8565,
+    "infer_time": 1832.2702701830058,
+    "predictions_path": "results/qwen2_vl_7b_instruct/geobench/temporal_predictions.json",
+    "git_commit": "25e3b0a1bfc032c7ed579070771d4242e22cef31",
+    "git_dirty": true,
+    "platform": "Linux",
+    "python": "3.10.12",
+    "runtime": "local",
+    "torch": "2.11.0+cu128",
+    "transformers": "5.9.0",
+    "vllm": "0.21.1rc1.dev262+g33d7cbe02.cu129",
+    "bitsandbytes": "0.49.2",
+    "sentencepiece": "0.2.1",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 1,
+    "gpu_memory_gb": 25.31,
+    "eo_vlm": "0.1.0"
+}

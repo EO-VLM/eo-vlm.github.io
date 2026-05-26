@@ -1,0 +1,9 @@
+{
+  "name": "SmolVLM 500M Instruct",
+  "slug": "smolvlm_500m_instruct",
+  "params": "500M",
+  "model_type": "Open Source",
+  "vision_encoder": "ViT-93M",
+  "language_model": "SmolLM2-360M",
+  "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-500M-Instruct"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "InternVL2 2B",
+  "slug": "internvl2_2b",
+  "params": "2B",
+  "model_type": "Open Source",
+  "vision_encoder": "InternViT-300M-448px",
+  "language_model": "InternLM2-1.8B",
+  "url": "https://huggingface.co/OpenGVLab/InternVL2-2B"
+}

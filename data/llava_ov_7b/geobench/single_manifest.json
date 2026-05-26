@@ -1,0 +1,63 @@
+{
+    "model_slug": "llava_ov_7b",
+    "mode": "single",
+    "split": "GEOBench-VLM",
+    "data_path": "/mnt/0857093308570933/datasets/GEO/GEOBench-VLM/",
+    "timestamp": "2026-05-25T15:50:18.607354+00:00",
+    "scores": {
+        "per_task": {
+            "Aircraft Type Classification": 57.0,
+            "Building Counting": 27.65,
+            "Crop Type Classification": 25.45,
+            "Disaster Type Classification": 49.34,
+            "Fire Risk Assessment": 26.67,
+            "General Aircraft Counting": 49.0,
+            "General Vehicle Counting": 27.33,
+            "Land Use Classification": 57.32,
+            "Marine Debirs Counting": 32.0,
+            "Scene Classification": 84.1,
+            "Ship Type Classification": 43.48,
+            "Specific Aircraft Type Counting": 33.57,
+            "Specific Vehicle Type Counting": 27.68,
+            "Sptatial Relation Classification": 75.97,
+            "Tree Health Assessment": 15.92,
+            "Trees Counting": 25.88,
+            "Water Bodies Counting": 51.76
+        },
+        "overall": 50.2
+    },
+    "engine_config": {
+        "repo_id": "llava-hf/llava-onevision-qwen2-7b-ov-hf",
+        "trust_remote_code": true,
+        "quantized": false,
+        "load_in_8bit": false,
+        "max_new_tokens": 128,
+        "temperature": 0.0,
+        "use_kv_cache": true,
+        "gpu_memory_utilization": 0.9,
+        "max_images_per_prompt": 2,
+        "extra_engine_kwargs": {
+            "max_model_len": 16384
+        },
+        "extra_sampling_kwargs": {}
+    },
+    "batch_size": 16,
+    "sample_count": 16055,
+    "infer_time": 4144.067487389999,
+    "predictions_path": "results/llava_ov_7b/geobench/single_predictions.json",
+    "git_commit": "25e3b0a1bfc032c7ed579070771d4242e22cef31",
+    "git_dirty": true,
+    "platform": "Linux",
+    "python": "3.10.12",
+    "runtime": "local",
+    "torch": "2.11.0+cu128",
+    "transformers": "5.9.0",
+    "vllm": "0.21.1rc1.dev268+gd0a100c87.cu129",
+    "bitsandbytes": "0.49.2",
+    "sentencepiece": "0.2.1",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 1,
+    "gpu_memory_gb": 25.31,
+    "eo_vlm": "0.1.0"
+}

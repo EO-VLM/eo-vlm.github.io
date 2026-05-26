@@ -1,0 +1,51 @@
+{
+    "model_slug": "llava_ov_500m",
+    "mode": "temporal",
+    "split": "GEOBench-VLM",
+    "data_path": "/mnt/0857093308570933/datasets/GEO/GEOBench-VLM/",
+    "timestamp": "2026-05-25T21:41:00.268557+00:00",
+    "scores": {
+        "per_task": {
+            "Crop Type Classification": 25.45,
+            "Damaged Building Counting": 31.43,
+            "Disaster Type Classification": 35.68,
+            "Farm Pond Change Detection": 21.05,
+            "Land Use Classification": 46.89
+        },
+        "overall": 34.09
+    },
+    "engine_config": {
+        "repo_id": "llava-hf/llava-onevision-qwen2-0.5b-ov-hf",
+        "trust_remote_code": true,
+        "quantized": false,
+        "load_in_8bit": false,
+        "max_new_tokens": 128,
+        "temperature": 0.0,
+        "use_kv_cache": true,
+        "gpu_memory_utilization": 0.9,
+        "max_images_per_prompt": 2,
+        "extra_engine_kwargs": {
+            "max_model_len": 16384
+        },
+        "extra_sampling_kwargs": {}
+    },
+    "batch_size": 16,
+    "sample_count": 8565,
+    "infer_time": 1088.373136351991,
+    "predictions_path": "results/llava_ov_500m/geobench/temporal_predictions.json",
+    "git_commit": "25e3b0a1bfc032c7ed579070771d4242e22cef31",
+    "git_dirty": true,
+    "platform": "Linux",
+    "python": "3.10.12",
+    "runtime": "local",
+    "torch": "2.11.0+cu128",
+    "transformers": "5.9.0",
+    "vllm": "0.21.1rc1.dev268+gd0a100c87.cu129",
+    "bitsandbytes": "0.49.2",
+    "sentencepiece": "0.2.1",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 1,
+    "gpu_memory_gb": 25.31,
+    "eo_vlm": "0.1.0"
+}

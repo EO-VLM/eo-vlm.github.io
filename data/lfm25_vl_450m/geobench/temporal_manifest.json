@@ -1,0 +1,50 @@
+{
+    "model_slug": "lfm25_vl_450m",
+    "mode": "temporal",
+    "split": "GEOBench-VLM",
+    "data_path": "/mnt/0857093308570933/datasets/GEO/GEOBench-VLM/",
+    "timestamp": "2026-05-24T13:34:38.781150+00:00",
+    "scores": {
+        "per_task": {
+            "Crop Type Classification": 25.45,
+            "Damaged Building Counting": 20.29,
+            "Disaster Type Classification": 30.84,
+            "Farm Pond Change Detection": 19.74,
+            "Land Use Classification": 46.89
+        },
+        "overall": 26.56
+    },
+    "engine_config": {
+        "repo_id": "LiquidAI/LFM2.5-VL-450M",
+        "trust_remote_code": true,
+        "quantized": false,
+        "load_in_8bit": false,
+        "max_new_tokens": 128,
+        "temperature": 0.0,
+        "use_kv_cache": true,
+        "gpu_memory_utilization": 0.9,
+        "max_images_per_prompt": 2,
+        "extra_engine_kwargs": {},
+        "extra_sampling_kwargs": {}
+    },
+    "batch_size": 16,
+    "sample_count": 8565,
+    "infer_time": 799.215976679996,
+    "predictions_path": "results/lfm25_vl_450m/geobench/temporal_predictions.json",
+    "git_commit": "25e3b0a1bfc032c7ed579070771d4242e22cef31",
+    "git_dirty": true,
+    "platform": "Linux",
+    "python": "3.10.12",
+    "runtime": "local",
+    "torch": "2.11.0+cu128",
+    "transformers": "5.9.0",
+    "vllm": "0.21.1rc1.dev262+g33d7cbe02.cu129",
+    "bitsandbytes": "0.49.2",
+    "sentencepiece": "0.2.1",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 1,
+    "gpu_memory_gb": 25.31,
+    "attention_backend": "sdpa",
+    "eo_vlm": "0.1.0"
+}

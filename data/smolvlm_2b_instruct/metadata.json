@@ -1,0 +1,9 @@
+{
+  "name": "SmolVLM 2B Instruct",
+  "slug": "smolvlm_2b_instruct",
+  "params": "2B",
+  "model_type": "Open Source",
+  "vision_encoder": "SigLIP-400M",
+  "language_model": "SmolLM2-1.7B",
+  "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-Instruct"
+}

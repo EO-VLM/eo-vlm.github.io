@@ -1,0 +1,9 @@
+{
+  "name": "LLaVA 1.5 7B",
+  "slug": "llava_1_5_7b",
+  "params": "7B",
+  "model_type": "Open Source",
+  "vision_encoder": "CLIP-ViT-L-14-336",
+  "language_model": "Vicuna-7B-v1.5",
+  "url": "https://huggingface.co/llava-hf/llava-1.5-7b-hf"
+}

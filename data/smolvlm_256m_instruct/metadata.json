@@ -1,0 +1,9 @@
+{
+  "name": "SmolVLM 256M Instruct",
+  "slug": "smolvlm_256m_instruct",
+  "params": "256M",
+  "model_type": "Open Source",
+  "vision_encoder": "ViT-93M",
+  "language_model": "SmolLM2-135M",
+  "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct"
+}

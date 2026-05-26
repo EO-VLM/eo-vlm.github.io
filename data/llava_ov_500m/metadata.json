@@ -1,0 +1,9 @@
+{
+  "name": "LLaVA OneVision 0.5B",
+  "slug": "llava_ov_500m",
+  "params": "0.5B",
+  "model_type": "Open Source",
+  "vision_encoder": "SigLIP SO400M",
+  "language_model": "Qwen2-0.5B-Instruct",
+  "url": "https://huggingface.co/llava-hf/llava-onevision-qwen2-0.5b-ov-hf"
+}
